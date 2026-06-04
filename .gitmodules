@@ -1,0 +1,3 @@
+[submodule "ciceroscm-surrogate"]
+	path = ciceroscm-surrogate
+	url = https://github.com/oskarbohnlassen/ciceroscm-surrogate.git
