@@ -1,0 +1,23 @@
+cfg:
+- pamset_udm:
+    rlamdo: 15.08357
+    akapa: 0.6568376339229769
+    cpi: 0.2077266
+    W: 2.205919
+    beto: 6.89822
+    lambda: 0.6062529
+    mixed: 107.2422
+  pamset_emiconc:
+    qbmb: 0.0
+    qo3: 0.5
+    qdirso2: -0.3562
+    qindso2: -0.96609
+    qbc: 0.1566
+    qoc: -0.0806
+  Index: 13555_old_NR_improved
+conc_data_first: 1750
+conc_data_last: 2100
+em_data_start: 1900
+em_data_policy: 2015
+em_data_end: 2100
+test_data_dir: ciceroscm/tests/test-data

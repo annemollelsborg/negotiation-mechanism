@@ -1,0 +1,24 @@
+data_generation_params:
+  num_samples: 50000
+  max_workers: 96
+  alpha: 0.8
+  data_output_dir: data/
+  specific_gas_bounds:
+    CO2_FF:
+    - 0.925
+    - 1.075
+    CO2_AFOLU:
+    - 0.925
+    - 1.075
+    CH4:
+    - 0.925
+    - 1.075
+    N2O:
+    - 0.925
+    - 1.075
+    SO2:
+    - 0.925
+    - 1.075
+  remaining_gas_bounds:
+  - 1
+  - 1

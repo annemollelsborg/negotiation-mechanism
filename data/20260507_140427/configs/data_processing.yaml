@@ -1,0 +1,8 @@
+data_processing_params:
+  data_dir: data/20260507_140427
+  window_size: 100
+  split:
+    train: 0.7
+    val: 0.15
+    test: 0.15
+  random_state: 0

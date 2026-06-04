@@ -1,0 +1,17 @@
+general:
+  data_id: data/20260507_140427
+  device: cuda
+model:
+  model_type: gru
+  hidden_dims: 256
+  num_layers: 1
+  lr: 0.0001
+  weight_decay: 0.001
+  epochs: 200
+  batch_size: 512
+  num_workers: 2
+  early_stopping: 30
+scheduler:
+  factor: 0.5
+  patience: 5
+  min_lr: 1.0e-06
